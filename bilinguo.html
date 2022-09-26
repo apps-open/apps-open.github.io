@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BiLinguo App</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <div id="logo">
+            <a href="index.html">
+                <img id="logo-text" src="logo_micro.png">
+            </a>
+        </div>
+        <div id="main">
+            <ul class="menu">
+                <li><a class="menu-item" href="index.html">Home</a></li>
+                <li><a class="menu-item" href="about.html">About</a></li>
+                <li id="has-childs"><a id="active" class="menu-item" href="products.html">Products</a>
+                    <ul>
+                        <li><a class="menu-item" href="bilinguo.html">BiLinguo</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu-item" href="license.html">License</a></li>
+                <li><a class="menu-item" href="donations.html">Donations</a></li>
+                <li><a class="menu-item" href="links.html">Links</a></li>
+            </ul>
+            <div id="content-div">
+                <div id="content">
+                    <p"><b>Hello!</b></p>
+                    <p>Welcome to BiLinguo main page! Hope you'll find what you need.</p>
+                    <p>Such features as "Translate", "Test yourself" have already been added, new design has been implemented. In the near future I am going to add such features as desktop notifications and a database import/export function. Hope you will like this applicaition. And may it help you learn new languages. Good Luck ;)</p>
+                    <p>BiLinguo is designed for learning foreign languages. Now it is being developed in small steps but I has couple of new ideas to improve this application.</p>
+                    <p><b>Privacy</b></p>
+                    <p>This application is open source and absolutely free to use. I care about user's privacy so I use only open source and free tools and APIs to develop it.</p>
+                    <p><b>Installation</b></p>
+                    <p>First run command in terminal:</p>
+                    <p style="background: blue; color: white;text-align:center;font-family: monospace;">git clone https://github.com/cyb3r-jamX/BiLinguo</p>
+                    <p>Or download and unpack .zip archive. Then, to build executable for your system, install pyinstaller and requirements using command:</p>
+                    <p style="background: blue; color: white;text-align:center;font-family: monospace;">pip install pyinstaller<br>pip install -r requirements.txt</p>
+                    <p>Finally, run this command to build executable:</p>
+                    <p style="background: blue; color: white;text-align:center;font-family: monospace;">pyinstaller --onefile --noconsole BiLinguo.py</p>
+                    <p>You'll find your application in the "dist" folder.</p>
+                    <p><b>Download</b></p>
+                    <a id="link" href="https://github.com/bi-linguo/bi-linguo.github.io/archive/refs/heads/main.zip">Source code</a><br>
+                    <a id="link" href="https://github.com">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
